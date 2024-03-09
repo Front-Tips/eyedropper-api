@@ -1,0 +1,49 @@
+.picker {
+  text-align: center;
+}
+
+.color-circles {
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.color-circle {
+  width: 1.875rem;
+  height: 1.875rem;
+  border: 0.125rem solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#colorPicker-button {
+  width: 9.375rem;
+  padding: 0.625rem 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #dd08c4;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#colorPicker-button:hover {
+  background-color: #b504a0;
+}
+
+#colorPicker-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.375rem;
+  height: 9.375rem;
+  margin: 0.7rem 0;
+  color: #fff;
+  border: 0.125rem solid #fff;
+  border-radius: 1rem;
+}
+
+#colorPicker-hex {
+  font-size: 1.3rem;
+}
